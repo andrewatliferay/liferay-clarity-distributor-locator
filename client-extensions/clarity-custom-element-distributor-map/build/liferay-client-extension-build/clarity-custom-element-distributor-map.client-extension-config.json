@@ -1,0 +1,17 @@
+{
+  "com.liferay.client.extension.type.configuration.CETConfiguration~clarity-custom-element-distributor-map" : {
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/clarity-custom-element-distributor-map",
+    "buildTimestamp" : 1755439744538,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "name" : "Clarity Distributor Map",
+    "projectId" : "claritycustomelementdistributormap",
+    "projectName" : "clarity-custom-element-distributor-map",
+    "properties" : [ ],
+    "sourceCodeURL" : "",
+    "type" : "customElement",
+    "typeSettings" : [ "friendlyURLMapping=clarity-custom-element-distributor-map", "instanceable=false", "urls=assets/index-C6ljvnCG.js", "useESM=true", "htmlElementName=clarity-custom-element-distributor-map", "cssURLs=assets/index-D1bUWRqj.css", "portletCategoryName=category.client-extensions" ],
+    "webContextPath" : "/clarity-custom-element-distributor-map"
+  }
+}

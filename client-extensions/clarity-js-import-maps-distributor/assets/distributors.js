@@ -1,0 +1,38 @@
+export const distributors = [
+    {
+        "name": "Hakim Optical",
+        "tier": "3",
+        "region": "North America",
+        "country": "Canada"
+    },
+    {
+        "name": "Sunglass Hut",
+        "tier": "1",
+        "region": "North America",
+        "country": "USA"
+    },
+    {
+        "name": "Roka",
+        "tier": "1",
+        "region": "North America",
+        "country": "USA"
+    },
+    {
+        "name": "Distributor D",
+        "tier": "1",
+        "region": "Europe",
+        "country": "Germany"
+    },
+    {
+        "name": "Distributor E",
+        "tier": "1",
+        "region": "Europe",
+        "country": "Sweden"
+    },
+    {
+        "name": "Distributor F",
+        "tier": "1",
+        "region": "Europe",
+        "country": "Netherlands"
+    }
+]

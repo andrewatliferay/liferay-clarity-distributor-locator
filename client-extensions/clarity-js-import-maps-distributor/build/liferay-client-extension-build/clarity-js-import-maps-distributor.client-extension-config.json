@@ -1,0 +1,17 @@
+{
+  "com.liferay.client.extension.type.configuration.CETConfiguration~clarity-js-import-maps-distributor" : {
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/clarity-js-import-maps-distributor",
+    "buildTimestamp" : 1755439747034,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "name" : "Clarity Distributor Library",
+    "projectId" : "clarityjsimportmapsdistributor",
+    "projectName" : "clarity-js-import-maps-distributor",
+    "properties" : [ ],
+    "sourceCodeURL" : "",
+    "type" : "jsImportMapsEntry",
+    "typeSettings" : [ "bareSpecifier=distributor", "url=distributor.7a949920305ea4f93402.js" ],
+    "webContextPath" : "/clarity-js-import-maps-distributor"
+  }
+}

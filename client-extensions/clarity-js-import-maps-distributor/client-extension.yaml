@@ -1,0 +1,8 @@
+assemble:
+    -   from: build/static
+        into: static
+clarity-js-import-maps-distributor:
+    bareSpecifier: distributor
+    name: Clarity Distributor Library
+    type: jsImportMapsEntry
+    url: distributor.*.js

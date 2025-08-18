@@ -1,0 +1,17 @@
+{
+  "com.liferay.client.extension.type.configuration.CETConfiguration~clarity-custom-element-distributor-table" : {
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/clarity-custom-element-distributor-table",
+    "buildTimestamp" : 1755440012028,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "name" : "Clarity Distributor Table",
+    "projectId" : "claritycustomelementdistributortable",
+    "projectName" : "clarity-custom-element-distributor-table",
+    "properties" : [ ],
+    "sourceCodeURL" : "",
+    "type" : "customElement",
+    "typeSettings" : [ "friendlyURLMapping=clarity-custom-element-distributor-table", "instanceable=false", "urls=assets/index-D3gnmVj0.js", "useESM=true", "htmlElementName=clarity-custom-element-distributor-table", "cssURLs=assets/index-BaB30yYW.css", "portletCategoryName=category.client-extensions" ],
+    "webContextPath" : "/clarity-custom-element-distributor-table"
+  }
+}
