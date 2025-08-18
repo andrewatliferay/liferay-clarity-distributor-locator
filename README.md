@@ -1,0 +1,1 @@
+# liferay-clarity-distributor-locator
