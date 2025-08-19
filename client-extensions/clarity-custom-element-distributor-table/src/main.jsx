@@ -1,13 +1,15 @@
 import React, { StrictMode } from 'react';
-import { render, unmountComponentAtNode } from 'react-dom';
+import { createRoot } from 'react-dom/client';
 
 import App from './App.jsx'
 import './index.css'
 
 class WebComponent extends HTMLElement {
-	
+
 	connectedCallback() {
-		render(
+		this.root = createRoot(this);
+
+		this.root.render(
 			<StrictMode>
 				<App />
 			</StrictMode>,
@@ -16,7 +18,9 @@ class WebComponent extends HTMLElement {
 	}
 
 	disconnectedCallback() {
-		unmountComponentAtNode(this);
+		this.root.unmount();
+
+		delete this.root;
 	}
 }
 

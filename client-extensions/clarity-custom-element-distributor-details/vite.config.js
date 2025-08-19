@@ -14,6 +14,7 @@ export default defineConfig({
 			external: [
 				'react',
 				'react-dom',
+				'clarity-distributors-api'
 			],
 		}
 	},

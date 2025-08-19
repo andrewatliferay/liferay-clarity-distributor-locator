@@ -2,7 +2,7 @@
 	"dependencies": {
 		"@clayui/button": "^3.143.0",
 		"@clayui/table": "^3.143.0",
-		"@react-google-maps/api": "^2.20.7",
+		"clarity-distributors-api": "*",
 		"react": "18.2.0",
 		"react-dom": "18.2.0"
 	},

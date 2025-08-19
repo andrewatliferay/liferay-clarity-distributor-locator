@@ -1,18 +1,19 @@
 import React, { useEffect, useState } from 'react';
 import ClayTable from '@clayui/table';
 import ClayButton from '@clayui/button';
+import {distributors} from 'clarity-distributors-api';
 
 const DistributorTable = () => {
-    const [distributors, setDistributors] = useState([]);
+    //const [distributors, setDistributors] = useState(distributors);
 
-    useEffect(() => {
-        // Example static data — replace with API call
-        setDistributors([
-            { id: 1, name: 'Vision World', city: 'Austin', state: 'TX' },
-            { id: 2, name: 'ClearView Optics', city: 'Dallas', state: 'TX' },
-            { id: 3, name: 'FocusPlus', city: 'Houston', state: 'TX' }
-        ]);
-    }, []);
+    // useEffect(() => {
+    //     // Example static data — replace with API call
+    //     // setDistributors([
+    //     //     { id: 1, name: 'Vision World', city: 'Austin', state: 'TX' },
+    //     //     { id: 2, name: 'ClearView Optics', city: 'Dallas', state: 'TX' },
+    //     //     { id: 3, name: 'FocusPlus', city: 'Houston', state: 'TX' }
+    //     // ]);
+    // }, []);
 
     const handleSelect = (distributor) => {
         Liferay.fire('selectDistributor', distributor);

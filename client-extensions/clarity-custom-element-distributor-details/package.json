@@ -2,9 +2,9 @@
 	"dependencies": {
 		"@clayui/alert": "^3.143.0",
 		"@clayui/button": "^3.143.0",
-		"@react-google-maps/api": "^2.20.7",
 		"react": "18.2.0",
-		"react-dom": "18.2.0"
+		"react-dom": "18.2.0",
+		"clarity-distributors-api": "*"
 	},
 	"devDependencies": {
 		"@types/react": "^18.2.0",
@@ -12,7 +12,7 @@
 		"@vitejs/plugin-react": "^4.2.1",
 		"vite": "^5.2.0"
 	},
-	"name": "@liferay/clarity-custom-element-distributor-details",
+	"name": "clarity-custom-element-distributor-details",
 	"private": true,
 	"scripts": {
 		"build": "vite build",

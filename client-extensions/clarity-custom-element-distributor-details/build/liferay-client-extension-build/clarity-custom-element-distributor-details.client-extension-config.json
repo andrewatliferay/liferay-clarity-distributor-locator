@@ -2,7 +2,7 @@
   "com.liferay.client.extension.type.configuration.CETConfiguration~clarity-custom-element-distributor-details" : {
     ":configurator:policy" : "force",
     "baseURL" : "${portalURL}/o/clarity-custom-element-distributor-details",
-    "buildTimestamp" : 1755440009145,
+    "buildTimestamp" : 1755543458913,
     "description" : "",
     "dxp.lxc.liferay.com.virtualInstanceId" : "default",
     "name" : "Clarity Distributor Details",
@@ -11,7 +11,7 @@
     "properties" : [ ],
     "sourceCodeURL" : "",
     "type" : "customElement",
-    "typeSettings" : [ "friendlyURLMapping=clarity-custom-element-distributor-details", "instanceable=false", "urls=assets/index-DrUV__SO.js", "useESM=true", "htmlElementName=clarity-custom-element-distributor-details", "cssURLs=assets/index-ya45I7hz.css", "portletCategoryName=category.client-extensions" ],
+    "typeSettings" : [ "friendlyURLMapping=clarity-custom-element-distributor-details", "instanceable=false", "urls=assets/index-GSn8o8p6.js", "useESM=true", "htmlElementName=clarity-custom-element-distributor-details", "cssURLs=assets/index-ya45I7hz.css", "portletCategoryName=category.client-extensions" ],
     "webContextPath" : "/clarity-custom-element-distributor-details"
   }
 }

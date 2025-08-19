@@ -1,8 +1,8 @@
 assemble:
-    -   from: build/static
+    -   from: build/vite
         into: static
 clarity-js-import-maps-distributor:
-    bareSpecifier: distributor
+    bareSpecifier: clarity-distributors-api
     name: Clarity Distributor Library
     type: jsImportMapsEntry
-    url: distributor.*.js
+    url: /index.js
