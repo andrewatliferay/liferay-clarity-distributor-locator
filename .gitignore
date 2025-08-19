@@ -1,2 +1,9 @@
 /liferay-clarity-distributor-locator.iml
 /.idea/
+/client-extensions/clarity-custom-element-distributor-details/build/
+/client-extensions/clarity-custom-element-distributor-map/build/
+/client-extensions/clarity-custom-element-distributor-map/@vite/
+/client-extensions/clarity-custom-element-distributor-table/@vite/
+/client-extensions/clarity-custom-element-distributor-table/build/
+/client-extensions/clarity-js-import-maps-distributor/build/
+/client-extensions/clarity-js-import-maps-distributor/dist/
